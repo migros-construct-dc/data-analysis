@@ -1,0 +1,1067 @@
+{
+  "html_attributions": [],
+  "next_page_token": "ATplDJYpr-qMYDsieoJDR1TngJQ-buxcdELJOahcuHOe3swlQjEGblhCydQvS2DtsDIlqNRE2EqT9Q1iWYXsb2Ir7_lHwboiqnNcJnL26s0SHu2HvGiogq65m2ijCp-u3zraDafEFD-xebk4VErk3hB_Gq47J7yGo5987sXjCs1scwbvkY6ZPOWQc3z8tI2BFsvbhHrXzfHTq5DmTkNBGh1QQzNEBe2OWdCnIkSYEADF0RgFUlayfw3Y5QlG76ogoE3h0D5udWIhv_zz7ERWxrdm1vYgUyZfaOSiYYqspoqAt1IBGWu7sjEGBABTCuz2Y5RsPsdz11-HWv0y3W_70iVIK1yZMt50wxJGtz3HhX4ADp0wwNiQnuyYQ0TpgwZDsoFEXkJ2An2Xcnng02Whb7cCAd5tqw",
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "L\u00f6wenstrasse 31-35 2. und 3. OG, 8001 Z\u00fcrich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.37538319999999,
+          "lng": 8.5360797
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.37665627989272,
+            "lng": 8.537678979892721
+          },
+          "southwest": {
+            "lat": 47.37395662010727,
+            "lng": 8.534979320107277
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3000,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/110381249715307152400\">Yanick L.</a>"
+          ],
+          "photo_reference": "ATplDJa_VSMPIj1oxMt4XqtPCVBOt41_Z49xvUgdzq17JX593wQaFUBz8vN9tJKhBXa3jvEgLFvf__z1h0mEi_qa2bZUNftKPn-AGIhxXe_OBC72kzDpty2NZZv0UTlkZIRAMq6IYwcdB4rATJ474VUqKzqPyVidBEfuizfyk5MNQUntrvlQ",
+          "width": 4000
+        }
+      ],
+      "place_id": "ChIJebvE0AUKkEcRli-dLu8vFaM",
+      "plus_code": {
+        "compound_code": "9GGP+5C Z\u00fcrich, Switzerland",
+        "global_code": "8FVC9GGP+5C"
+      },
+      "rating": 4.3,
+      "reference": "ChIJebvE0AUKkEcRli-dLu8vFaM",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2335
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Falkenstrasse 19 - 21, 8001 Z\u00fcrich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3654461,
+          "lng": 8.5479668
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.36681232989272,
+            "lng": 8.54942502989272
+          },
+          "southwest": {
+            "lat": 47.36411267010727,
+            "lng": 8.546725370107277
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros Supermarket Z\u00fcrich Stadelhofen",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2976,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111917002087396404773\">Sven Endres</a>"
+          ],
+          "photo_reference": "ATplDJYwb_8W-1wwqOu0T1fuE-U4rFoTjhISVhDUWIVvwwaEqJ2OkMUjVhvbPP4r32ezamYzQFfzKsBqBM66pSsRFmHfotda9XGntMX9AFRBtN1PxLO9yQYPkKXxNsLrkV6i2FQazTAbC6GZCg7A0B7d6vqqclHbZQyaVnBuE2dvPk4yqEkl",
+          "width": 3968
+        }
+      ],
+      "place_id": "ChIJe6LeMFOnmkcRw2FC6oADh-Q",
+      "plus_code": {
+        "compound_code": "9G8X+55 Z\u00fcrich, Switzerland",
+        "global_code": "8FVC9G8X+55"
+      },
+      "rating": 4,
+      "reference": "ChIJe6LeMFOnmkcRw2FC6oADh-Q",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 639
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Ebisquare Str. 1, 6030 Ebikon, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.0935442,
+          "lng": 8.3581326
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.09475502989271,
+            "lng": 8.359761479892722
+          },
+          "southwest": {
+            "lat": 47.09205537010727,
+            "lng": 8.357061820107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Ebikon - Mall of Switzerland",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2265,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/112569502794754915008\">Edwin Fl\u00fceli</a>"
+          ],
+          "photo_reference": "ATplDJbSeLHTBBRKOqV4MIwnNWUFliPXl305dmeXpleOAuA1--XNRHQB-yaSOJqO1axLMm2Gp0Eebv7H0ilLPYiMrmuQRJ5RZHjk3l88OSoDnXQF8GdQDIwBtSNoURoh-1SrP7grTDE9xj7wpMx2pEwuxResuQSXZEJUn8hHCTTjZJI7i0sE",
+          "width": 3033
+        }
+      ],
+      "place_id": "ChIJo3_1Nib8j0cRXG7I60c13_8",
+      "plus_code": {
+        "compound_code": "39V5+C7 Ebikon, Switzerland",
+        "global_code": "8FVC39V5+C7"
+      },
+      "rating": 4.4,
+      "reference": "ChIJo3_1Nib8j0cRXG7I60c13_8",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 531
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Flughofstrasse 3, 8058 Kloten, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.4493704,
+          "lng": 8.562636099999999
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.45086517989272,
+            "lng": 8.56370022989272
+          },
+          "southwest": {
+            "lat": 47.44816552010728,
+            "lng": 8.561000570107277
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "MIGROS",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3456,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106845843828311177756\">Santos Edgar</a>"
+          ],
+          "photo_reference": "ATplDJaaCydt4RIybcDIlCylhVeH2uaXe1PMnCvHc4ze-yfpWaA0ybwEZLzproVpfLrv55h5Xoyr9CnByIfDj3mdviSLbhnvSbRK0HIEJjkC4Ls7XHjIbdxVHFm46XbY-snZ5lfL8qi4JgyQNLFnuPCkyBhHMVgyPZD26S27kHiDTsP3rCHm",
+          "width": 4608
+        }
+      ],
+      "place_id": "ChIJ_SR38lZ1kEcReSR9696npIg",
+      "plus_code": {
+        "compound_code": "CHX7+P3 Kloten, Switzerland",
+        "global_code": "8FVCCHX7+P3"
+      },
+      "rating": 4.5,
+      "reference": "ChIJ_SR38lZ1kEcReSR9696npIg",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2156
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Jonas-Furrer-Strasse 21, 8046 Z\u00fcrich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.4203808,
+          "lng": 8.5085333
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.42158502989273,
+            "lng": 8.50980907989272
+          },
+          "southwest": {
+            "lat": 47.41888537010728,
+            "lng": 8.507109420107277
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Z\u00fcrich - Affoltern",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/106836848537833532942\">Tom M.</a>"
+          ],
+          "photo_reference": "ATplDJZInU3KRao0H3qSO0Dye7B07WTJf1MT3sraH43jy_mXFPvjK3yO517pmeNJP8XhP6pt6TKgtiilX386nHI7SlTWkBUWNkxp3-iRmFC8WaN-nbeS162I358_I4_TaRv0D0vURa2Ho3W7yI1YJ7U93eHGxNsGzfA1eyO-BUUGpzHt6Czs",
+          "width": 5312
+        }
+      ],
+      "place_id": "ChIJX0YjkOIKkEcRZDzIE1DlaOU",
+      "plus_code": {
+        "compound_code": "CGC5+57 Z\u00fcrich, Switzerland",
+        "global_code": "8FVCCGC5+57"
+      },
+      "rating": 4.3,
+      "reference": "ChIJX0YjkOIKkEcRZDzIE1DlaOU",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1010
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Sihlpassage, 8004 Z\u00fcrich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3784015,
+          "lng": 8.535615
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.37972157989272,
+            "lng": 8.537055329892722
+          },
+          "southwest": {
+            "lat": 47.37702192010728,
+            "lng": 8.534355670107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Z\u00fcrich - HB Sihlquai",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2268,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/105050182154600999473\">Sefer Kilic</a>"
+          ],
+          "photo_reference": "ATplDJYSz8CueUGoQZbXo7HA9TrnSWD1-6HNrBHzRj9YVbkb1O4OEy3CLAt2_hzJjLkpSIFTIg6pYbGNWDMg73zNsbLlZubIaufsV-wNEI19EpuWzcefqqCgSWVPE_wI_E5Fw4cj9C_CJeO7hPl6-akTnmHmn7J6qu0Pa_qoUVOnQKGQWjxe",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJjx7_F9YLkEcRPih1Q_-rqP4",
+      "plus_code": {
+        "compound_code": "9GHP+96 Z\u00fcrich, Switzerland",
+        "global_code": "8FVC9GHP+96"
+      },
+      "rating": 4.3,
+      "reference": "ChIJjx7_F9YLkEcRPih1Q_-rqP4",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 493
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Rugenparkstrasse 1, 3800 Interlaken, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 46.6813497,
+          "lng": 7.851885900000001
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.68266152989272,
+            "lng": 7.853552429892723
+          },
+          "southwest": {
+            "lat": 46.67996187010727,
+            "lng": 7.850852770107279
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114700920066550776422\">A Google User</a>"
+          ],
+          "photo_reference": "ATplDJYaWZZGdRvhP1U56fFhD5L8Tl6enfpX0CZFR2Kl3bDyCQbrpeGR_ttCR6SR9DygWt6ihgqtJJKNrv1fVRTFCkBI8e4YBPzqAPcoZMgXQno0GYT5yzzWWoBqAy3tXFkyZLQX0ocWvrZEDHO1z1-R3ma-NfPkJNEv3NHQo34Y_Xx2y4Wy",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJWYkJ_Y-kj0cRD_tcqJZHa60",
+      "plus_code": {
+        "compound_code": "MVJ2+GQ Interlaken, Switzerland",
+        "global_code": "8FR9MVJ2+GQ"
+      },
+      "rating": 4.4,
+      "reference": "ChIJWYkJ_Y-kj0cRD_tcqJZHa60",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2087
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Winterthurerstrasse 2/4, 8006 Z\u00fcrich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3860283,
+          "lng": 8.548558
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.38737177989272,
+            "lng": 8.54992517989272
+          },
+          "southwest": {
+            "lat": 47.38467212010728,
+            "lng": 8.547225520107276
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Z\u00fcrich - Rigiplatz",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 949,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117475160341531023284\">Matthias M. Mattenberger</a>"
+          ],
+          "photo_reference": "ATplDJZd0DTOrqp04Tl-1Zuur5DRonKFbiqUIqbQhGQ5kI5atF2qgSp965gMbqok1qKzJ8vd67e1MmM67b2LcohohGRnzWtubP6gaYuZMnKBZ9URig1POX7idDCSwVFp56vesdoTSYPgnwxDYeDv4k8Ksjhrsng96R2NkXOrgXuD9aUcKoLf",
+          "width": 1265
+        }
+      ],
+      "place_id": "ChIJazOmhZ-gmkcRAKhgefA24EM",
+      "plus_code": {
+        "compound_code": "9GPX+CF Z\u00fcrich, Switzerland",
+        "global_code": "8FVC9GPX+CF"
+      },
+      "rating": 4.2,
+      "reference": "ChIJazOmhZ-gmkcRAKhgefA24EM",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 519
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Hauptbahnhof, 8001 Z\u00fcrich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3779303,
+          "lng": 8.5391097
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.37968422989272,
+            "lng": 8.541587999999999
+          },
+          "southwest": {
+            "lat": 47.37698457010727,
+            "lng": 8.538283599999996
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Z\u00fcrich - Hauptbahnhof",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/116379173594331608442\">Helena Veg</a>"
+          ],
+          "photo_reference": "ATplDJZAY6mxdTl1l9QV6YAb21IFUpcY7UZUVMBIkaMa0OA3mTrTHYsKBf6bKkkUClz_pjWr2ZiPoM6rNGloE-8iD-yoq7-CdY9NN9GzUrlA38UMuSV9O1-udo3MhISdBhbb5u7xt0Jktm3J1kWbUR3Zagy26JJMVDAh0moSFaOr1uRZxVb2",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJS6CT8QgKkEcRwqhtQkVOTUI",
+      "plus_code": {
+        "compound_code": "9GHQ+5J Z\u00fcrich, Switzerland",
+        "global_code": "8FVC9GHQ+5J"
+      },
+      "rating": 4.2,
+      "reference": "ChIJS6CT8QgKkEcRwqhtQkVOTUI",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 2360
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Kreuzpl. 20, 8008 Z\u00fcrich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3645128,
+          "lng": 8.5537736
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.36599727989272,
+            "lng": 8.555278579892722
+          },
+          "southwest": {
+            "lat": 47.36329762010728,
+            "lng": 8.552578920107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Z\u00fcrich - Kreuzplatz",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/100206032825952866684\">Jovo Savic</a>"
+          ],
+          "photo_reference": "ATplDJbrPptaEYzl69XZ7-OaUkkYFMk2r4c2rKE0FPd-okJ8HJiYgzKr17p9wDS27C4hzF8EchR_4FKl1MeCZxeug_U8UX8294Sod8dPupuiaC5nKLb6T7253ke0ZwpbVPHaKJyy80wk11EEs-Xd_B05Lkuj9QjoGiWnnb79R-TTUAnQ9iVH",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJrZtsEZD8jkcRZSrPkC9Ynh8",
+      "plus_code": {
+        "compound_code": "9H73+RG Z\u00fcrich, Switzerland",
+        "global_code": "8FVC9H73+RG"
+      },
+      "rating": 4.2,
+      "reference": "ChIJrZtsEZD8jkcRZSrPkC9Ynh8",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 457
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Hertensteinstrasse 9, 6004 Luzern, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.054745,
+          "lng": 8.3096768
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.05582207989272,
+            "lng": 8.311118779892722
+          },
+          "southwest": {
+            "lat": 47.05312242010728,
+            "lng": 8.308419120107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Luzern - Schweizerhof",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114365148327719404844\">Ramon Maghsoudi</a>"
+          ],
+          "photo_reference": "ATplDJYGVgx41mWj7HE1KS9rH6L9-Cgrxw9Ce1QDprt2WslIMhs5OhMJ4Sv9LDEWTFTD-dSYWrzBOc84pbM3FlL00gX1Fy-8KonldPSwACaKC0dIkOCrc1nlzsjmGAXj74O7LCujZJa0-lLqc86U6uoTTCzE1RX9tTMQK3mD07o6oMlDYNsD",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJqVXGqgr7j0cRr4NaS6izTu4",
+      "plus_code": {
+        "compound_code": "3835+VV Lucerne, Switzerland",
+        "global_code": "8FVC3835+VV"
+      },
+      "rating": 4.3,
+      "reference": "ChIJqVXGqgr7j0cRr4NaS6izTu4",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1548
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Winkelriedstrasse 58, 6003 Luzern, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.0461492,
+          "lng": 8.3072655
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.04744467989272,
+            "lng": 8.308668529892723
+          },
+          "southwest": {
+            "lat": 47.04474502010728,
+            "lng": 8.305968870107279
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Luzern - Waldst\u00e4tter",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 2988,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/118440996084959778989\">Patrick Guidoux</a>"
+          ],
+          "photo_reference": "ATplDJYRq_AvyEgjrm70mg7kQ-NCzJou_tj4MGFBlKTtWif_s2YTc4oMC3sCbF5xrPb3Y0SoyebM4gaUe2xdeM3Ku5mfsRzM5a0h5xnAVkDuzSnep0dUIY-eAMTTr7P0eG42T7kRLkxLEKSzjtNlVIDO3auvnl38svqwtGb_gHjrdq81HeDk",
+          "width": 5312
+        }
+      ],
+      "place_id": "ChIJsXp6wqP7j0cRQ7x6D7CZtZY",
+      "plus_code": {
+        "compound_code": "28W4+FW Lucerne, Switzerland",
+        "global_code": "8FVC28W4+FW"
+      },
+      "rating": 4.3,
+      "reference": "ChIJsXp6wqP7j0cRQ7x6D7CZtZY",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 392
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Tessinerpl. 10, 8002 Z\u00fcrich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.36413049999999,
+          "lng": 8.5310291
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.36553922989273,
+            "lng": 8.532502079892723
+          },
+          "southwest": {
+            "lat": 47.36283957010728,
+            "lng": 8.529802420107279
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/103541268436778144207\">Ksenia Markainesk</a>"
+          ],
+          "photo_reference": "ATplDJZgwJB8oK9Ab419PxqlP0xHoGxZpzJHzoCXCX9OJeIM3_iZoQ_W1F20At5C8e-Wf9Sn5EGZW4v85eL5Iy1p_B6Gx8YKeHtXen2cY68cCYafkSZf3a1kkpEnwICjxtCo91hYSQXLQl4UVMGR2bMirS7J2xQbRrgvnv0d86MPSE1awgfh",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJ8_GqOdYJkEcRlyA5wY3lgh0",
+      "plus_code": {
+        "compound_code": "9G7J+MC Z\u00fcrich, Switzerland",
+        "global_code": "8FVC9G7J+MC"
+      },
+      "rating": 4.1,
+      "reference": "ChIJ8_GqOdYJkEcRlyA5wY3lgh0",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 620
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Christoffelunterf\u00fchrung, 3011 Bern, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 46.9477989,
+          "lng": 7.4401614
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.94915187989272,
+            "lng": 7.441509629892723
+          },
+          "southwest": {
+            "lat": 46.94645222010728,
+            "lng": 7.438809970107279
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Bern - Christoffel",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/115533338088231365637\">yubin Choi</a>"
+          ],
+          "photo_reference": "ATplDJbenINoo2kOTtaapGXiX29IefD2Zihxmwj-R7MGfLKdKskg5df0Y96wRknFJ2yedjS-O_PiGhIYmzkTIYGOKj3xNj0B9_58imhSgMjWeZYaUJlBKvwkEXY6ih46ni7kJ-6stTXZ93Sr6KKR2IGXJ4qaYxsZxBJSTPkOCot4pcGCyyQw",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJ6-UKwb45jkcRAQP9XudRiFI",
+      "plus_code": {
+        "compound_code": "WCXR+43 Bern, Switzerland",
+        "global_code": "8FR9WCXR+43"
+      },
+      "rating": 4.2,
+      "reference": "ChIJ6-UKwb45jkcRAQP9XudRiFI",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1209
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Centralbahnstrasse 10, 4051 Basel, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.5477915,
+          "lng": 7.5887825
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.54930682989271,
+            "lng": 7.590528229892722
+          },
+          "southwest": {
+            "lat": 47.54660717010727,
+            "lng": 7.587828570107278
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "MIGROS",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3132,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/117118478189579640370\">Migros</a>"
+          ],
+          "photo_reference": "ATplDJa7LOZ8PZRFoJYnNqnWp-mwyIt7jUkia0TM6iY8uI_6djnrgkJQCSKbkeoHRuS004owGTfrL3oJ2xa8qfjTzynVEpbwoL3rGFb6lRVf0WUdWQCj9wUWkURm1ptPY36JAGzzT86ljDbX5zppvPpaO7JfAflVQOBSFDNK2fsgSZdGgQo7",
+          "width": 5568
+        }
+      ],
+      "place_id": "ChIJF7NPAVK4kUcRRkiM8i98Iy0",
+      "plus_code": {
+        "compound_code": "GHXQ+4G Basel, Switzerland",
+        "global_code": "8FV9GHXQ+4G"
+      },
+      "rating": 4.2,
+      "reference": "ChIJF7NPAVK4kUcRRkiM8i98Iy0",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1429
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Marktgasse 46, 3011 Bern, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 46.9482562,
+          "lng": 7.4450371
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 46.94912907989273,
+            "lng": 7.446774979892723
+          },
+          "southwest": {
+            "lat": 46.94642942010728,
+            "lng": 7.444075320107279
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Bern - Marktgasse",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3120,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111612359154075084267\">Joep De Wit</a>"
+          ],
+          "photo_reference": "ATplDJafFk9Nf_pSDlKPImugcQLLDb99UzC_8RT1snMhJGZutY8E5iE8PSDbvnFjZmCswsUK9exsS_IV1W0CGIVB6AXJBKsmC2LHFUeLm5bKOU66IQyyRwS8WP_EDV23OrDP_JCBbf3aNoJT8ymwqviyLHkqcFu5bOtzAxdYM1yo3CNJbJCB",
+          "width": 4160
+        }
+      ],
+      "place_id": "ChIJZyRGD9A5jkcRpFk2uctTrAA",
+      "plus_code": {
+        "compound_code": "WCXW+82 Bern, Switzerland",
+        "global_code": "8FR9WCXW+82"
+      },
+      "rating": 4.3,
+      "reference": "ChIJZyRGD9A5jkcRpFk2uctTrAA",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 1696
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "W\u00fcrzenbachstrasse 19, 6006 Luzern, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.0550833,
+          "lng": 8.3437092
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.05631452989272,
+            "lng": 8.345024129892721
+          },
+          "southwest": {
+            "lat": 47.05361487010728,
+            "lng": 8.342324470107277
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Luzern - W\u00fcrzenbachstrasse",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 844,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/114551256623794643021\">A Google User</a>"
+          ],
+          "photo_reference": "ATplDJaFYhOsFURjAKjTAavkK7ZsGJiMh_-vjUvwym0u1TNgj3rpPCxjA5SqTel440MK6TltmVuVmQRpjAJ73FKAJp3nUFLNT6ZgX4NL0FfWS22X_chybmDW4AlttrKOGs_a1LLRT1t236Ee1kDlvvXKIxMzWBAurwYyoME5hyCPYF_oDpg6",
+          "width": 1500
+        }
+      ],
+      "place_id": "ChIJz49DO077j0cRpcxymYjgukQ",
+      "plus_code": {
+        "compound_code": "384V+2F Lucerne, Switzerland",
+        "global_code": "8FVC384V+2F"
+      },
+      "rating": 4.3,
+      "reference": "ChIJz49DO077j0cRpcxymYjgukQ",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 102
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Schaffhauserstrasse 75, 8057 Z\u00fcrich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.3925426,
+          "lng": 8.5384811
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.39394047989272,
+            "lng": 8.539722079892721
+          },
+          "southwest": {
+            "lat": 47.39124082010727,
+            "lng": 8.537022420107277
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Z\u00fcrich - Schaffhauserplatz",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109456292964978827995\">Patrick Hediger</a>"
+          ],
+          "photo_reference": "ATplDJYdBtPbrYOda30Dm8VRRbg_8naAUYDW5hn5yE3JDeU05_1sj60wChCG4g-2JtyjKkejSwiDbSiUc-hpnKqj5MEog8xR1jeJwM6ExgNBQGgGeTSihLnq_qSlW7HQNx6-uot6Lx2X7ZHDueVZjEqkOJE4rYTXJQiNBlEB5K3PkVHLSAjf",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJlRZDn3EKkEcRWFjwece2Dn4",
+      "plus_code": {
+        "compound_code": "9GVQ+29 Z\u00fcrich, Switzerland",
+        "global_code": "8FVC9GVQ+29"
+      },
+      "rating": 4.1,
+      "reference": "ChIJlRZDn3EKkEcRWFjwece2Dn4",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 355
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Zentralstrasse 1, 6003 Luzern, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.0501744,
+          "lng": 8.3102638
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.05164217989272,
+            "lng": 8.31159247989272
+          },
+          "southwest": {
+            "lat": 47.04894252010728,
+            "lng": 8.308892820107276
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Luzern - Bahnhof",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 900,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/111572823704658851246\">Migros</a>"
+          ],
+          "photo_reference": "ATplDJYG1EWPwxsccUXOGTweyzTey7mDxUbAR2xS8xAkqmHV4zUt_HExjmtytZJnPUEsFm8qlCtEyx7JaF3w5vSSaZIpu-LO67TcEDiUIHvJwbli-zAL0AJzvsM09w6x8VJeCiwTaXf5nk94ciEDBsPzV8YUqEfiifNYnLAPJDXliMP04fXM",
+          "width": 1200
+        }
+      ],
+      "place_id": "ChIJqVXGqgr7j0cRLlG-8rRax_Y",
+      "plus_code": {
+        "compound_code": "3826+34 Lucerne, Switzerland",
+        "global_code": "8FVC3826+34"
+      },
+      "rating": 4.2,
+      "reference": "ChIJqVXGqgr7j0cRLlG-8rRax_Y",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 660
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "Einkaufszentrum Neumarkt, Hofwiesenstrasse 350, 8050 Z\u00fcrich, Switzerland",
+      "geometry": {
+        "location": {
+          "lat": 47.4105054,
+          "lng": 8.5430437
+        },
+        "viewport": {
+          "northeast": {
+            "lat": 47.41198302989272,
+            "lng": 8.54428312989272
+          },
+          "southwest": {
+            "lat": 47.40928337010728,
+            "lng": 8.541583470107277
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+      "name": "Migros-Supermarkt - Z\u00fcrich - Oerlikon Neumarkt",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "<a href=\"https://maps.google.com/maps/contrib/109456292964978827995\">Patrick Hediger</a>"
+          ],
+          "photo_reference": "ATplDJbwyATISq3bJ-2JPFA2U99pIaakJ-K7Kw0ycdvk0rgwaI5y3tpXLNI1UZGE-7rvWIgoPNZmfUKxQYs9VgCKngOjhlIl-9ihr1qnGAnit4k1OgODEORzPo4VvDNOZIHSFg_R_fQr0gdKFWhkDSIU8PinQTI_eKpmPfNRt9cNNpIR0PAx",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJsbyGDYYKkEcReDOVUIRlDJI",
+      "plus_code": {
+        "compound_code": "CG6V+66 Z\u00fcrich, Switzerland",
+        "global_code": "8FVCCG6V+66"
+      },
+      "rating": 4.4,
+      "reference": "ChIJsbyGDYYKkEcReDOVUIRlDJI",
+      "types": [
+        "grocery_or_supermarket",
+        "supermarket",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 738
+    }
+  ],
+  "status": "OK"
+}
