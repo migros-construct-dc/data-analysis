@@ -19,8 +19,6 @@ def load_dict(path):
         dict = json.load(response)
         return dict
 
-
-
 # Assuming we have saved our datasets as CSV files after analysis
 MIGROS_STORES_CSV = './data/df_switzerland_migros.csv'
 # TODO change with pop_density.csv file
@@ -43,7 +41,7 @@ def main():
 
     elif page == 'Migros Store Locations':
         st.header('Migros Store Locations')
-        df = load_data('.data/df_switzerland_denner.csv')
+        df = load_data('./data/df_switzerland_denner.csv')
         df1 = df.copy()
         cantons = load_dict(".data/georef-switzerland-kanton@public.geojson")
         cantons_dict = {'TG':'Thurgau', 'GR':'Graubünden', 'LU':'Luzern', 'BE':'Bern', 'VS':'Valais',
