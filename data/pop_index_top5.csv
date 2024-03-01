@@ -1,7 +1,7 @@
-,canton,2022,denners,counts,shop_rate
-8,Basel-Stadt,196786,18.0,43.0,2.2
-23,Nidwalden,44420,4.0,8.0,1.8
-1,Valais,357282,21.0,64.0,1.8
-11,Zürich,1579967,58.0,278.0,1.8
-20,Uri,37317,3.0,6.0,1.6
-17,Graubünden,202538,20.0,33.0,1.6
+,Canton,count_x,count_y,counts,canton,2022,denners,shop_rate
+5,Genève,35,0.0,35.0,0,0.0,0.0,inf
+8,Lucerne,1,0.0,1.0,0,0.0,0.0,inf
+2,Basel-Stadt,25,18.0,43.0,Basel-Stadt,196786.0,18.0,2.2
+11,Nidwalden,4,4.0,8.0,Nidwalden,44420.0,4.0,1.8
+19,Valais,43,21.0,64.0,Valais,357282.0,21.0,1.8
+21,Zürich,220,58.0,278.0,Zürich,1579967.0,58.0,1.8
