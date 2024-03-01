@@ -21,14 +21,17 @@ def load_dict(path):
 
 # Assuming we have saved our datasets as CSV files after analysis
 MIGROS_STORES_CSV = './data/df_switzerland_migros.csv'
-# TODO change with pop_density.csv file
-POP_DENSITY_CSV = './data/df_switzerland_lidl.csv'
-# TODO change with competitors file
-COMPETITORS_CSV = './data/df_switzerland_spar.csv'
+
+POP_DENSITY_CSV = './data/pop_denn.csv'
+
+PROJECTION_CSV = './data/per_change.csv'
 
 def main():
     st.title('Migros Store Optimization Analysis')
 
+    df = load_data('./data/df_switzerland_denner.csv')
+    df1 = df.copy()
+    cantons = load_dict("./data/georef-switzerland-kanton@public.geojson")
     st.sidebar.title('Navigation')
     page = st.sidebar.radio('Go to', ['Introduction', 'Migros Store Locations', 'Population Density Analysis', 'Competitor Analysis'])
 
@@ -40,21 +43,122 @@ def main():
         """)
 
     elif page == 'Migros Store Locations':
-        df = load_data('./data/df_switzerland_denner.csv')
-        df1 = df.copy()
+        st.header('Migros Store Locations')
+        migros_df = load_data(MIGROS_STORES_CSV)
+
+    elif page == 'Population Density Analysis':
+        st.header('Population Density Analysis')
+        population = load_data(POP_DENSITY_CSV)
+        st.write("Population density visualization")
+        if st.checkbox("Show Dataframe"):
+            st.subheader("This is the dataset with the Population density")
+            st.dataframe(population)
+
+        # Population plot (adapt as needed)
+        fig = px.choropleth_mapbox(
+            population,
+            color='2022',
+            color_continuous_scale='viridis',
+            geojson=cantons,
+            locations="canton",
+            featureidkey="properties.kan_name",
+            center={"lat": 46.8, "lon": 8.3},
+            mapbox_style="open-street-map",
+            zoom=6.3,
+            opacity=0.8,
+            width=900,
+            height=500,
+            labels={"canton":"Canton",
+                    "2022":"population in 2022"},
+            title="<b>Population density and Denners</b>"
+
+        )
+        fig.update_layout(margin={"r":0,"t":35,"l":0,"b":0},
+                          font={"family":"Helvetica",
+                                "color":"maroon"},
+                          hoverlabel={"bgcolor":"white",
+                                      "font_size":12,
+                                      "font_family":"Helvetica"},
+                          title={"font_size":20,
+                                 "xanchor":"left", "x":0.01,
+                                 "yanchor":"bottom", "y":0.95}
+                          )
+
+        fig2 = px.scatter_mapbox(df1, lat="Latitude", lon="Longitude",
+                                 size_max=15,  # Color the dots based on a column
+                                 color_discrete_sequence=["red"], # Choose a color scale
+                                 center={"lat": 46.8, "lon": 8.3},
+                                 mapbox_style="open-street-map",
+                                 zoom=6.3,
+                                 opacity=0.8,
+                                 width=900,
+                                 height=500)
+        trace0 = fig2 # the second map from the previous code
+        fig.add_trace(trace0.data[0])
+        trace0.layout.update(showlegend=False)
+        st.plotly_chart(fig)
+
+
+        projection = load_data(PROJECTION_CSV)
+
+        viz1 = projection[['Canton','per_change_10y', 'per_change_20y']]
+        viz1 = viz1.sort_values(by='per_change_20y', ascending=False)
+
+        # Column chart for the 10 and 20 years population projection
+        fig = go.Figure()
+        fig.add_trace(go.Bar(x=viz1['Canton'],
+                             y=viz1['per_change_10y'],
+                             name='% growth of population in 10 years',
+                             marker_color='rgb(55, 83, 109)'
+                             ))
+        fig.add_trace(go.Bar(x=viz1['Canton'],
+                             y=viz1['per_change_20y'],
+                             name='% growth of population in 20 years',
+                             marker_color='rgb(26, 118, 255)'
+                             ))
+
+        fig.update_layout(
+            title='Comparison of the % change in the growth of the population by canton',
+            xaxis_tickfont_size=14,
+            yaxis=dict(
+                title='% change',
+                titlefont_size=16,
+                tickfont_size=14,
+            ),
+            legend=dict(
+                x=0,
+                y=1.0,
+                bgcolor='rgba(255, 255, 255, 0)',
+                bordercolor='rgba(255, 255, 255, 0)'
+            ),
+            barmode='group',
+            bargap=0.15, # gap between bars of adjacent location coordinates.
+            bargroupgap=0.1,
+            width=1000, # Set the width of the figure
+            height=600 # gap between bars of the same location coordinate.
+        )
+
+        fig.update_layout(
+            legend=dict(
+                x=1,
+                y=1,
+                xanchor='right',  # Anchors the legend to the right
+                yanchor='top',
+                bgcolor='rgba(255, 255, 255, 0.5)'  # Anchors the legend to the bottom
+            )
+        )
+        st.plotly_chart(fig)
+
+    elif page == 'Competitor Analysis':
+        st.header('Competitor Analysis')
+
         if st.checkbox("Show Dataframe"):
             st.subheader("This is the dataset with the Denners per Canton:")
             denner_per_canton = df1.groupby('Canton').size().reset_index(name='count')
             st.dataframe(denner_per_canton)
         st.header('Denners per Canton')
-        cantons = load_dict("./data/georef-switzerland-kanton@public.geojson")
-        cantons_dict = {'TG':'Thurgau', 'GR':'Graubünden', 'LU':'Luzern', 'BE':'Bern', 'VS':'Valais',
-                        'BL':'Basel-Landschaft', 'SO':'Solothurn', 'VD':'Vaud', 'SH':'Schaffhausen', 'ZH':'Zürich',
-                        'AG':'Aargau', 'UR':'Uri', 'NE':'Neuchâtel', 'TI':'Ticino', 'SG':'St. Gallen', 'GE':'Genève',
-                        'GL':'Glarus', 'JU':'Jura', 'ZG':'Zug', 'OW':'Obwalden', 'FR':'Fribourg', 'SZ':'Schwyz',
-                        'AR':'Appenzell Ausserrhoden', 'AI':'Appenzell Innerrhoden', 'NW':'Nidwalden', 'BS':'Basel-Stadt'}
         denner_per_canton = df1.groupby('Canton').size().reset_index(name='count')
-                # mapping denners per canton
+        # mapping denners per canton
         fig = px.choropleth_mapbox(
             denner_per_canton,
             color="count",
@@ -83,18 +187,20 @@ def main():
                                  "yanchor":"bottom", "y":0.95}
                           )
         st.plotly_chart(fig)
+        st.write("""
+                    Denners in Switzerland
+                """)
+        rating_per_canton = df1.groupby('Canton')['Rating'].agg('mean').reset_index(name='mean_rating')
+        sorted_rating = rating_per_canton.sort_values(by='mean_rating', ascending=False)
+        fig = px.scatter_mapbox(df1, lat="Latitude", lon="Longitude", center={"lat": 46.8, "lon": 8.3},
+                                mapbox_style="open-street-map",
+                                zoom=6.3,
+                                opacity=0.8,
+                                width=900,
+                                height=500,
+                                title="Denners in Switzerland")
 
-    elif page == 'Population Density Analysis':
-        st.header('Population Density Analysis')
-        pop_density_df = load_data(POP_DENSITY_CSV)
-        # Example plot (adapt as needed)
-        st.write("Population density visualization here. Use your analysis results to create a map or chart.")
-
-    elif page == 'Competitor Analysis':
-        st.header('Competitor Analysis')
-        competitors_df = load_data(COMPETITORS_CSV)
-        # Example plot (adapt as needed)
-        st.write("Competitor store locations visualization here. Use your analysis results to create a map or chart.")
+        st.plotly_chart(fig)
 
 if __name__ == '__main__':
     main()
