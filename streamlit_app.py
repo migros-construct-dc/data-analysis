@@ -14,9 +14,15 @@ def load_data(path):
     df = pd.read_csv(path)
     return df
 
+def load_dict(path):
+    with open(path) as response:
+        dict = json.load(response)
+        return dict
+
+
+
 # Assuming we have saved our datasets as CSV files after analysis
-# TODO change with migros_stores.csv file
-MIGROS_STORES_CSV = './data/df_switzerland_aldi.csv'
+MIGROS_STORES_CSV = './data/df_switzerland_migros.csv'
 # TODO change with pop_density.csv file
 POP_DENSITY_CSV = './data/df_switzerland_lidl.csv'
 # TODO change with competitors file
@@ -37,10 +43,43 @@ def main():
 
     elif page == 'Migros Store Locations':
         st.header('Migros Store Locations')
-        migros_df = load_data(MIGROS_STORES_CSV)
-        # fig = px.scatter_mapbox(migros_df, lat="latitude", lon="longitude", zoom=7, height=300,
-        #                         mapbox_style="open-street-map")
-        # st.plotly_chart(fig, use_container_width=True)
+        df = load_data('.data/df_switzerland_denner.csv')
+        df1 = df.copy()
+        cantons = load_dict(".data/georef-switzerland-kanton@public.geojson")
+        cantons_dict = {'TG':'Thurgau', 'GR':'Graubünden', 'LU':'Luzern', 'BE':'Bern', 'VS':'Valais',
+                        'BL':'Basel-Landschaft', 'SO':'Solothurn', 'VD':'Vaud', 'SH':'Schaffhausen', 'ZH':'Zürich',
+                        'AG':'Aargau', 'UR':'Uri', 'NE':'Neuchâtel', 'TI':'Ticino', 'SG':'St. Gallen', 'GE':'Genève',
+                        'GL':'Glarus', 'JU':'Jura', 'ZG':'Zug', 'OW':'Obwalden', 'FR':'Fribourg', 'SZ':'Schwyz',
+                        'AR':'Appenzell Ausserrhoden', 'AI':'Appenzell Innerrhoden', 'NW':'Nidwalden', 'BS':'Basel-Stadt'}
+        denner_per_canton = df1.groupby('Canton').size().reset_index(name='count')
+                # mapping denners per canton
+        fig = px.choropleth_mapbox(
+            denner_per_canton,
+            color="count",
+            geojson=cantons,
+            locations="Canton",
+            featureidkey="properties.kan_name",
+            center={"lat": 46.8, "lon": 8.3},
+            mapbox_style="open-street-map",
+            zoom=6.3,
+            opacity=0.8,
+            width=900,
+            height=500,
+            labels={"Canton":"Canton",
+                    "count":"Number of Denners"},
+            title="<b>Denners per Canton</b>",
+            color_continuous_scale="Cividis",
+        )
+        fig.update_layout(margin={"r":0,"t":35,"l":0,"b":0},
+                          font={"family":"Sans",
+                                "color":"maroon"},
+                          hoverlabel={"bgcolor":"white",
+                                      "font_size":12,
+                                      "font_family":"Helvetica"},
+                          title={"font_size":20,
+                                 "xanchor":"left", "x":0.01,
+                                 "yanchor":"bottom", "y":0.95}
+                          )
 
     elif page == 'Population Density Analysis':
         st.header('Population Density Analysis')
