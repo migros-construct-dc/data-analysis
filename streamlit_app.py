@@ -40,6 +40,44 @@ st.write("""
     Navigate through the app to explore various aspects of our analysis, including population density, Migros store locations, and competitor analysis.
 """)
 
+#
+# df_switzerland_competitors=load_data("./data/df_switzerland_competitors.csv")
+#
+# fig = px.scatter_mapbox(df_switzerland_competitors,
+#                         lat="Latitude",
+#                         lon="Longitude",
+#                         size_max=15,  # Color the dots based on a column
+#                         color_discrete_sequence=["blue"],  # Choose a color scale
+#                         center={"lat": 46.8, "lon": 8.3},
+#                         mapbox_style="open-street-map",
+#                         zoom=6.3,
+#                         opacity=0.8,
+#                         width=900,
+#                         height=500,
+#                         hover_data=["Canton", "Brand"])  # Specify the correct column names for hover data
+#
+# fig.update_layout(title="Competitors in Switzerland (ALDI, COOP, LIDL, SPAR, VOLG)")
+#
+# st.plotly_chart(fig)
+#
+#
+# brand_count_per_canton = df_switzerland_competitors.groupby(['Canton', 'Brand']).size().reset_index(name='Count')
+# total_shops_per_canton = brand_count_per_canton.groupby('Canton')['Count'].sum().reset_index(name='Total Competitor Shops')
+#
+# st.dataframe(data=total_shops_per_canton)
+#
+# total_shops_per_canton = total_shops_per_canton.sort_values(by='Total Competitor Shops', ascending=False)
+#
+# fig = px.bar(total_shops_per_canton,
+#              x='Canton',
+#              y='Total Competitor Shops',
+#              title='Total Competitor Shops per Canton',
+#              labels={'Total Competitor Shops': 'Number of Competitor Shops'},
+#              color='Canton')  # Optional: Color the bars differently based on canton
+#
+# st.plotly_chart(fig)
+
+
 st.header('Migros Store Locations')
 
 st.header('Projection per canton Analysis')
