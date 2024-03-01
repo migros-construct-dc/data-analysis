@@ -40,9 +40,13 @@ def main():
         """)
 
     elif page == 'Migros Store Locations':
-        st.header('Migros Store Locations')
         df = load_data('./data/df_switzerland_denner.csv')
         df1 = df.copy()
+        if st.checkbox("Show Dataframe"):
+            st.subheader("This is the dataset with the Denners per Canton:")
+            denner_per_canton = df1.groupby('Canton').size().reset_index(name='count')
+            st.dataframe(denner_per_canton)
+        st.header('Denners per Canton')
         cantons = load_dict("./data/georef-switzerland-kanton@public.geojson")
         cantons_dict = {'TG':'Thurgau', 'GR':'Graubünden', 'LU':'Luzern', 'BE':'Bern', 'VS':'Valais',
                         'BL':'Basel-Landschaft', 'SO':'Solothurn', 'VD':'Vaud', 'SH':'Schaffhausen', 'ZH':'Zürich',
