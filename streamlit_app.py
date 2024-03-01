@@ -15,7 +15,6 @@ def load_data(path):
     return df
 
 # Assuming we have saved our datasets as CSV files after analysis
-# TODO change with migros_stores.csv file
 MIGROS_STORES_CSV = './data/df_switzerland_migros.csv'
 # TODO change with pop_density.csv file
 POP_DENSITY_CSV = './data/df_switzerland_lidl.csv'
