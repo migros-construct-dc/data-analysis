@@ -26,6 +26,7 @@ POP_DENSITY_CSV = './data/pop_denn.csv'
 
 PROJECTION_CSV = './data/per_change.csv'
 
+PROJECTION_PER_CANTON_CSV = './data/projection_per_kanton_2050_base.csv'
 
 st.title('Migros Store Optimization Analysis')
 
@@ -40,7 +41,42 @@ st.write("""
 """)
 
 st.header('Migros Store Locations')
-migros_df = load_data(MIGROS_STORES_CSV)
+
+st.header('Projection per canton Analysis')
+
+df_base = load_data(PROJECTION_PER_CANTON_CSV)
+df_high = pd.read_csv('./data/projection_per_kanton_2050_high.csv')
+df_low = pd.read_csv('./data/projection_per_kanton_2050_low.csv')
+# give a name to the 1st column with the canton names: Entity
+df_base = df_base.rename(columns={df_base.columns[0]: 'Entity'})
+df_low = df_low.rename(columns={df_low.columns[0]: 'Entity'})
+df_high = df_high.rename(columns={df_high.columns[0]: 'Entity'})
+
+
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=df_low.columns[1:], y=df_low[df_low['Entity']=='Schweiz'].values[0][1:], mode='lines+markers', name='Low', fillcolor='blue'))
+fig.add_trace(go.Scatter(x=df_base.columns[1:], y=df_base[df_base['Entity']=='Schweiz'].values[0][1:], mode='lines+markers', name='Base', fillcolor='green'))
+fig.add_trace(go.Scatter(x=df_high.columns[1:], y=df_high[df_high['Entity']=='Schweiz'].values[0][1:], mode='lines+markers', name='High', fillcolor='orange'))
+fig.update_layout(title='Swiss population projection 2050 (low, base and high scenarios)', xaxis_title='Year', yaxis_title='Population')
+
+st.plotly_chart(fig)
+
+st.write("""
+             plot the low, base and high scenarios for Switzerland (no summation)
+ show low on blue, base on green and high on orange
+ y axis ticks in tenths of millions
+ add a shaded area between low and high scenarios
+        """)
+
+fig = go.Figure()
+fig.add_trace(go.Scatter(x=df_low.columns[1:], y=df_low[df_low['Entity']=='Schweiz'].values[0][1:], mode='lines+markers', name='Low',  line=dict(color='blue')))
+fig.add_trace(go.Scatter(x=df_base.columns[1:], y=df_base[df_base['Entity']=='Schweiz'].values[0][1:], mode='lines+markers', name='Base',  line=dict(color='green') ))
+fig.add_trace(go.Scatter(x=df_high.columns[1:], y=df_high[df_high['Entity']=='Schweiz'].values[0][1:], mode='lines+markers', name='High',  line=dict(color='orange') ))
+#fig.add_trace(go.Scatter(x=df_high.columns[1:], y=df_high[df_high['Entity']=='Schweiz'].values[0][1:], mode='lines', fill='tonexty', line=dict(color='orange', width=0)))
+fig.add_trace(go.Scatter(x=df_low.columns[1:], y=df_low[df_low['Entity']=='Schweiz'].values[0][1:], mode='lines', fill='tonexty', name='Range', line=dict(color='blue', width=0)))
+fig.update_layout(title='Swiss population projection 2050 (low, base and high scenarios)', xaxis_title='Year', yaxis_title='Population')
+
+st.plotly_chart(fig)
 
 st.header('Population Density Analysis')
 population = load_data(POP_DENSITY_CSV)
