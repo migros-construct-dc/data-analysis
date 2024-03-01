@@ -16,7 +16,7 @@ def load_data(path):
 
 # Assuming we have saved our datasets as CSV files after analysis
 # TODO change with migros_stores.csv file
-MIGROS_STORES_CSV = './data/df_switzerland_aldi.csv'
+MIGROS_STORES_CSV = './data/df_switzerland_migros.csv'
 # TODO change with pop_density.csv file
 POP_DENSITY_CSV = './data/df_switzerland_lidl.csv'
 # TODO change with competitors file
@@ -38,9 +38,9 @@ def main():
     elif page == 'Migros Store Locations':
         st.header('Migros Store Locations')
         migros_df = load_data(MIGROS_STORES_CSV)
-        # fig = px.scatter_mapbox(migros_df, lat="latitude", lon="longitude", zoom=7, height=300,
-        #                         mapbox_style="open-street-map")
-        # st.plotly_chart(fig, use_container_width=True)
+        fig = px.scatter_mapbox(migros_df, lat="latitude", lon="longitude", zoom=7, height=300,
+                                mapbox_style="open-street-map")
+        st.plotly_chart(fig, use_container_width=True)
 
     elif page == 'Population Density Analysis':
         st.header('Population Density Analysis')
