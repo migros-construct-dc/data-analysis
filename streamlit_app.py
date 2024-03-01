@@ -43,7 +43,7 @@ def main():
         st.header('Migros Store Locations')
         df = load_data('./data/df_switzerland_denner.csv')
         df1 = df.copy()
-        cantons = load_dict(".data/georef-switzerland-kanton@public.geojson")
+        cantons = load_dict("./data/georef-switzerland-kanton@public.geojson")
         cantons_dict = {'TG':'Thurgau', 'GR':'Graubünden', 'LU':'Luzern', 'BE':'Bern', 'VS':'Valais',
                         'BL':'Basel-Landschaft', 'SO':'Solothurn', 'VD':'Vaud', 'SH':'Schaffhausen', 'ZH':'Zürich',
                         'AG':'Aargau', 'UR':'Uri', 'NE':'Neuchâtel', 'TI':'Ticino', 'SG':'St. Gallen', 'GE':'Genève',
@@ -78,6 +78,7 @@ def main():
                                  "xanchor":"left", "x":0.01,
                                  "yanchor":"bottom", "y":0.95}
                           )
+        st.plotly_chart(fig)
 
     elif page == 'Population Density Analysis':
         st.header('Population Density Analysis')
